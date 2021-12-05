@@ -28,6 +28,7 @@ function UserData() {
       <div className="parantDiv">
         {data.map((user) => <DisplaUsers userData={user} key={user._id}></DisplaUsers>)}
       </div>
+      <div style={{ textAlign: 'center', marginTop: '30px', marginBottom: '30px' }}>All rights reversed.Copyright © 2021 Habibor-Rahaman.com</div>
     </div>
   )
 
